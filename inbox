@@ -1,0 +1,7 @@
+p/t for printing numbers as binary value
+p/d for printing numbers as decimal value
+prefixes for numbers
+0b - for binary (example: 0b101)
+0x - for hexadecimal (example: 0x1F)
+0  - for octal (example: 0105)
+   - no prefix for decimal number (example: 15)
