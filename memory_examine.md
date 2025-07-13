@@ -1,11 +1,15 @@
 # Examine Memory
 
 ## Syntax: `x/[N][FU][F] 0xADDRESS`
+## Syntax: `x/[NUM][SIZE][FORMAT] where (address)`
 |Field|Meaning|
 |---|---|
-|`N`|Number of units to display|
-|`F`|Size of each unit (bytes, words)|
+|`N` or `NUM`|Number of **units** or **object** to display|
+|`SIZE`|Size of each **unit** or **object** (b = bytes, h = half-word, w=word, g=giant (quad-word)|
+|`FORMAT`|How to display each **unit** or **object** (d=decimal, x=hex, o=octal, etc.)|
 |`U`|Display format (hex, char, dec)|
+
+***If we don't specify SIZE or FORMAT, either a default value, or the last value we specified in a previous `print` or `x` command is used.***
 
 ## Full Table of Modifers
 ### 1. Unit size Specifiers (F)
