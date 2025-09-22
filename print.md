@@ -38,6 +38,9 @@ $4 = 65535         # 16-bit unsigned
 
 (gdb) p/d (int) 0xffffffff
 $5 = -1           # 32-bit signed
+
+(gdb) p/x (unsigned long long) 2 << 0x20
+$6 = 0x200000000
 ```
 
 ### Common uses and information
